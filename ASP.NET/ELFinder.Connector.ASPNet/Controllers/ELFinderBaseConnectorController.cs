@@ -35,7 +35,7 @@ namespace ELFinder.Connector.ASPNet.Controllers
         /// <summary>
         /// Driver
         /// </summary>
-        protected FileSystemConnectorDriver Driver { get; set; }
+        protected Drivers.Common.Interfaces.IConnectorDriver Driver { get; set; }
 
         #endregion
 
